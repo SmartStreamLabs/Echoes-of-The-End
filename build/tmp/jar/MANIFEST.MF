@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: Echoes of the End Structures
+Specification-Vendor: SmartStreamLabs
+Specification-Version: 12.00.13
+Implementation-Title: Echoes of the End Structures
+Implementation-Version: 12.00.13
+Implementation-Vendor: SmartStreamLabs
+

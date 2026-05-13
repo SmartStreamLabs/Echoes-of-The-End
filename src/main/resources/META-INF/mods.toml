@@ -1,0 +1,21 @@
+modLoader="lowcodefml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+showAsDataPack=true
+showAsResourcePack=false
+
+[[mods]]
+modId="echoes_of_the_end__structures_"
+version="12.00.13"
+displayName="Echoes of the End ( Structures )"
+description='''Expand The End With New Structures!'''
+authors="SmartStreamLabs"
+displayURL="https://www.curseforge.com/members/smartstreamlabs/projects"
+logoFile="logo.png"
+
+[[dependencies.echoes_of_the_end__structures_]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

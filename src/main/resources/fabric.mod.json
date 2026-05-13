@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "echoes_of_the_end__structures_",
+  "version": "12.00.13",
+  "name": "Echoes of the End ( Structures )",
+  "description": "Expand The End With New Structures!",
+  "authors": [
+    "SmartStreamLabs"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/members/smartstreamlabs/projects",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}

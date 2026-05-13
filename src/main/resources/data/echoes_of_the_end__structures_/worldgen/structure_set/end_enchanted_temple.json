@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "echoes_of_the_end__structures_:end_enchanted_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 220,
+    "separation": 29,
+    "salt": 479948289
+  }
+}

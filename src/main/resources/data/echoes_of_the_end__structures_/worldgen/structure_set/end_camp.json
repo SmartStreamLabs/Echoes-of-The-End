@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "echoes_of_the_end__structures_:end_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 130,
+    "separation": 2,
+    "salt": 910165693
+  }
+}

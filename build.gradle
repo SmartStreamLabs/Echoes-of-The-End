@@ -1,0 +1,30 @@
+plugins {
+    id 'base'
+}
+
+version = '12.00.13'
+group = 'com.smartstreamlabs'
+actualmodid = 'echoes_of_the_end__structures_'
+base.archivesName = actualmodid
+
+tasks.register('jar', Jar) {
+    archiveBaseName = actualmodid
+    archiveVersion = project.version
+    destinationDirectory = layout.buildDirectory.dir('libs')
+    from('src/main/resources')
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+    manifest {
+        attributes(
+                'Specification-Title': 'Echoes of the End Structures',
+                'Specification-Vendor': 'SmartStreamLabs',
+                'Specification-Version': project.version,
+                'Implementation-Title': 'Echoes of the End Structures',
+                'Implementation-Version': project.version,
+                'Implementation-Vendor': 'SmartStreamLabs'
+        )
+    }
+}
+
+tasks.named('build') {
+    dependsOn tasks.named('jar')
+}

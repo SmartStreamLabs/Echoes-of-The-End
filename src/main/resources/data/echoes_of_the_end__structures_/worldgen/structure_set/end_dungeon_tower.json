@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "echoes_of_the_end__structures_:end_dungeon_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 10,
+    "salt": 1054309675
+  }
+}

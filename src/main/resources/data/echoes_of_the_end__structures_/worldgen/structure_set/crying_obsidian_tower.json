@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "echoes_of_the_end__structures_:crying_obsidian_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 190,
+    "separation": 8,
+    "salt": 1275595292
+  }
+}
